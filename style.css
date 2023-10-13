@@ -1,0 +1,778 @@
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+
+#main {
+    height: 87vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Images/header-image.png');
+    opacity: 1;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_bar {
+    width: 100vw;
+    height: 90px;
+    /* background-color: blue; */
+}
+
+.nav {
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav img {
+    width: 148px;
+    height: 40px;
+    margin-left: 13vw;
+
+
+}
+
+.right_side {
+    display: flex;
+    gap: 25px;
+    margin-right: 160px;
+}
+
+.language {
+    position: relative
+}
+
+.select {
+    padding: 7px 32px 7px 32px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #5E5E5E;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+.language img {
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    right: 4.7%;
+    top: 45%;
+
+
+
+}
+
+.sign_in button {
+    padding: 7px 15px 7px 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #E50914;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+
+
+}
+
+.home_content {
+    width: 80vw;
+    height: 60vh;
+    /* background-color: red; */
+    padding-bottom: 30px;
+    margin-left: 120px;
+}
+
+.text_1 {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 180px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text_2 {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-left: 500px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.text_3 {
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_4 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-left: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login {
+
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    margin-left: 260px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.login input {
+    margin-top: 20px;
+    padding: 18px 150px 17px 20px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+
+}
+
+.login button {
+    padding: 16px 60px 17px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E50914;
+    font-size: 20px;
+
+}
+
+.login i {
+    position: absolute;
+    top: 43%;
+    right: 39%;
+
+}
+
+.middle {
+    width: 100vw;
+    height: 8px;
+    background-color: #232323;
+}
+
+.second_page {
+    margin-top: 10px;
+    width: 100vw;
+    height: 68vh;
+    display: flex;
+
+}
+
+.left {
+    width: 50%;
+    height: 68vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left h1 {
+    font-size: 43px;
+    color: white;
+    font-weight: 800;
+    margin-right: 70px;
+
+    margin-bottom: 20px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.left p {
+    width: 550px;
+    margin-left: 70px;
+
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.right {
+    width: 100%;
+    height: 68vh;
+
+}
+
+.right img {
+    width: 100%;
+    height: 68vh;
+}
+
+.third_page {
+    margin-top: 10px;
+    width: 100vw;
+    height: 68vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.left2 {
+    width: 50%;
+    height: 68vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left2 h1 {
+
+    font-size: 43px;
+    color: white;
+    font-weight: 800;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.left2 p {
+    width: 550px;
+    margin-right: 160px;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.right2 {
+    width: 50%;
+    height: 68vh;
+
+}
+
+.right2 img {
+    margin-top: 140px;
+    margin-left: 90px;
+    width: 40vw;
+    height: 50vh;
+}
+
+.fourth_page {
+    margin-top: 10px;
+    width: 100vw;
+    height: 68vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.left3 {
+    width: 50%;
+    height: 68vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left3 h1 {
+
+    font-size: 43px;
+    color: white;
+    font-weight: 800;
+    /* margin-right: 70px; */
+
+    margin-bottom: 10px;
+    margin-left: 60px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.left3 p {
+    width: 550px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.right3 {
+    width: 100%;
+    height: 68vh;
+
+}
+
+.right3 img {
+    margin-top: 70px;
+    width: 40vw;
+    height: 50vh;
+}
+
+.fifth_page {
+    margin-top: 10px;
+    width: 100vw;
+    height: 68vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.left4 {
+    width: 50%;
+    height: 68vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left4 h1 {
+
+    font-size: 43px;
+    color: white;
+    font-weight: 800;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.left4 p {
+    width: 550px;
+    margin-right: 60px;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.right4 {
+    width: 50%;
+    height: 68vh;
+
+}
+
+.right4 img {
+    margin-top: 140px;
+    margin-left: 90px;
+    width: 40vw;
+    height: 50vh;
+}
+
+.second_last {
+    width: 100vw;
+    height: 120vh;
+}
+
+.second_last h1 {
+    color: white;
+    margin: 100px 0 40px 400px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Questions {
+    width: 75vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #2D2D2D;
+    margin-top: 10px;
+    margin-left: 12vw;
+    margin-bottom: 5px;
+}
+
+.Questions h3 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    list-style: none;
+
+}
+
+.Questions i {
+    font-size: 60px;
+    margin-right: 20px;
+}
+
+.Questions:hover {
+    background-color: #414141;
+}
+
+.detail1 {
+
+    width: 75vw;
+    height: 230px;
+    margin-left: 12vw;
+    background-color: #2D2D2D;
+    display: none;
+}
+
+.detail1 p {
+    font-size: 22px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.detail2 {
+    width: 75vw;
+    height: 130px;
+    margin-left: 12vw;
+    background-color: #2D2D2D;
+    display: none;
+}
+
+.detail2 p {
+    font-size: 22px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.detail3 {
+    width: 75vw;
+    height: 280px;
+    margin-left: 12vw;
+    background-color: #2D2D2D;
+    display: none;
+}
+
+.detail3 p {
+    font-size: 22px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.detail4 {
+    width: 75vw;
+    height: 150px;
+    margin-left: 12vw;
+    background-color: #2D2D2D;
+    display: none;
+}
+
+.detail4 p {
+    font-size: 22px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.detail5 {
+    width: 75vw;
+    height: 130px;
+    margin-left: 12vw;
+    background-color: #2D2D2D;
+    display: none;
+}
+
+.detail5 p {
+    font-size: 22px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.detail6 {
+    width: 75vw;
+    height: 200px;
+    margin-left: 12vw;
+    background-color: #2D2D2D;
+    display: none;
+}
+
+.detail6 p {
+    font-size: 22px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.text_4_2 {
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-left: 390px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login2 {
+
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    margin-left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.login2 input {
+    margin-top: 20px;
+    padding: 18px 150px 17px 20px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+
+}
+
+.login2 button {
+    padding: 16px 60px 17px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E50914;
+    font-size: 20px;
+
+}
+
+.login2 i {
+    position: absolute;
+    top: 41%;
+    right: 45%;
+
+}
+
+footer {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    position: relative;
+
+}
+
+footer .Q {
+    color: white;
+    position: absolute;
+    top: 18%;
+    left: 12%;
+    font-size: 20px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+}
+
+footer .Q a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.footer {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+
+
+    /* flex-direction: column; */
+
+}
+
+.footer_cols {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.footer_cols a {
+    color: white;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_cols .select {
+    margin-top: 20px;
+}
+
+.footer_cols .select option {
+    background-color: black;
+    color: white;
+
+}
+
+.footer_cols p {
+    margin-top: 20px;
+    color: white;
+}
+
+/* 
+@media (max-width:1280px) {
+   
+
+   
+
+
+
+}*/
+
+
+@media (max-width:600px) {
+
+    .right_side {
+        margin-right: 20px;
+    }
+
+    .nav>img {
+        width: 80px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    #main {
+        height: 80vh;
+        width: 100vw;
+        background-size: 100vw;
+        object-fit: cover;
+        object-position: center
+    }
+
+    .language>img {
+        width: 10px;
+        height: 5px;
+    }
+
+    .home_content {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text_1 {
+        margin-top: 30px;
+        font-size: 14px;
+        margin-left: 5px;
+        /* text-align: justify; */
+
+
+
+    }
+    .text_2 {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .text_3 {
+        font-size: 20px;
+        margin-left: -19px;
+    }
+
+    .text_4 {
+        font-size: 19px;
+        margin-left: 5px;
+        /* height: 30px; */
+    }
+
+    .login {
+        margin-left: 3px;
+        margin-top: 20px;
+    }
+
+    .login input {
+        padding: 15px 80px 15px 20px;
+        margin-bottom: 20px;
+    }
+
+    .login button {
+        padding: 10px 60px 10px 10px;
+        margin-left: 60px;
+    }
+
+    .login i {
+        position: absolute;
+        top: 72%;
+        right: 30%;
+
+    }
+    .second_page{
+        height:60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .left{
+    
+        height:25vh;
+        width:100vw;
+
+    }
+    .left h1{
+        margin-top: 30px;
+        font-size:30px;
+        margin-left: 50px;
+    }
+    .left p{
+        margin-left: 0px;
+        text-align: center;
+        width:100vw;
+        font-size: 17px;
+
+    }
+    .right{
+        height:35vh;
+    }
+    .right img{
+        height:40vh;
+    }
+  
+
+}
